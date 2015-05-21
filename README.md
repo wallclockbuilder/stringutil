@@ -11,18 +11,22 @@ Rugo is a port of all the string manipulation methods from ruby.
 
 Install
 ---------
+<code>
 go get https://github.com/wallclockbuilder/rugo
 
 
 Import
 ----------
+<code>
 import "xstrings" "https://github.com/wallclockbuilder/rugo"
 
 
 Use
 -----
+<code>
 xstrings.Capitalize("abcde") 		  	      #=> 		"ABCDE"
 
 xstrings.Prepend("captain " , "planet") 	#=> 		"captain planet"
 
 xstrings.Swapcase("Hello") 		          	#=> 		"hELLO"
+</code>
