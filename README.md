@@ -10,19 +10,20 @@ Rugo makes all the string manipulation methods from ruby accessible in go.
 
 
 ###Install
-<code>
-go get https://github.com/wallclockbuilder/rugo
+```bash
+ go get https://github.com/wallclockbuilder/rugo
+```
 
 ###Import
-<code>
-import "xstrings" "https://github.com/wallclockbuilder/rugo"
-</code>
+```golang
+ import "xstrings" "https://github.com/wallclockbuilder/rugo"
+```
 
 ###Use
-<code>
+```golang
 xstrings.Capitalize("abcde") 		  	      #=> 		"ABCDE"
 
 xstrings.Prepend("captain " , "planet") 	#=> 		"captain planet"
 
 xstrings.Swapcase("Hello") 		          	#=> 		"hELLO"
-</code>
+```
