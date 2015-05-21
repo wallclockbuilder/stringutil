@@ -1,4 +1,5 @@
-# rugo
+Rugo
+ ====
 Ruby's string manipulation magic brought to Golang
 
 > **Why?**
@@ -6,7 +7,7 @@ Ruby's string manipulation magic brought to Golang
  Robert Pike, [Less is exponentially more](http://commandcenter.blogspot.com/2012/06/less-is-exponentially-more.html)
 
 
-Rugo is a port of all the string manipulation methods from ruby.
+Rugo has made all the string manipulation methods from ruby accessible in go.
 
 
 Install
