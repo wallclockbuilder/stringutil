@@ -8,12 +8,17 @@ Ruby's string manipulation magic brought to Golang
 
 Rugo is a port of all the string manipulation methods from ruby.
 
+
 Install
 ---------
 go get https://github.com/wallclockbuilder/rugo
+
+
 Import
 ----------
-import "xstrings"
+import "xstrings" "https://github.com/wallclockbuilder/rugo"
+
+
 Use
 -----
 xstrings.Capitalize("abcde") 		  	      #=> 		"ABCDE"
