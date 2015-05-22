@@ -5,8 +5,8 @@ go:
   - 1.2
   - 1.3
   - tip
-
-script:
+before_script:
   - go get github.com/stretchr/testify/assert
   - go get github.com/wallclockbuilder/rugo/xstrings
-  - go test -v ./...
+script:
+   - go test -v ./...
