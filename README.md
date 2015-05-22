@@ -25,8 +25,8 @@ package main
 import "github.com/wallclockbuilder/rugo/xstrings"
 
 func main() {
-  xstrings.Capitalize("abcde") #=> "ABCDE"
-  xstrings.Prepend("capt. ", "planet") #=> "capt. planet"
-  xstrings.Swapcase("Hello")#=> "hELLO"
+  xstrings.Capitalize("abcde")          #=> "ABCDE"
+  xstrings.Prepend("capt. ", "planet")  #=> "capt. planet"
+  xstrings.Swapcase("Hello")            #=> "hELLO"
 }
 ```
