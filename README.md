@@ -22,16 +22,14 @@ Rugo makes all the string manipulation methods from ruby accessible in go.
 ###Use
 ```golang
 package main
-import (
-  "github.com/wallclockbuilder/rugo/xstrings"
-)
+import "github.com/wallclockbuilder/rugo/xstrings"
 
 func main() {
-xstrings.Capitalize("abcde")
-#=>     "ABCDE"
-xstrings.Prepend("captain " , "planet")
-#=>     "captain planet"
-xstrings.Swapcase("Hello")
-#=>     "hELLO"
+  xstrings.Capitalize("abcde")
+  #=> "ABCDE"
+  xstrings.Prepend("captain " , "planet")
+  #=> "captain planet"
+  xstrings.Swapcase("Hello")
+  #=> "hELLO"
 }
 ```
