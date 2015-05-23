@@ -1,8 +1,8 @@
 package rugo
 
 import (
-	"github.com/stretchr/testify/assert"
 	"github.com/wallclockbuilder/rugo/xstrings"
+	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
 

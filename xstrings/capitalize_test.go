@@ -1,7 +1,7 @@
 package xstrings
 
 import (
-	"github.com/stretchr/testify/assert"
+	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
 
