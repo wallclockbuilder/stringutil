@@ -11,4 +11,5 @@ func TestImports(t *testing.T) {
 
 	assert.Equal("ABCDE", xstrings.Capitalize("abcde"))
 	assert.Equal("capt. planet", xstrings.Prepend("capt. ", "planet"))
+	assert.Equal("strin", xstrings.Chop("string"))
 }
