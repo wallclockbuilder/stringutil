@@ -37,7 +37,7 @@ func main() {
 - [ ] bytes
 - [ ] bytesize
 - [ ] byteslice
-- [ ] capitalize
+- [x] capitalize
 - [ ] capitalize!
 - [ ] casecmp
 - [ ] center
@@ -90,7 +90,7 @@ func main() {
 - [ ] oct
 - [ ] ord
 - [ ] partition
-- [ ] prepend
+- [x] prepend
 - [ ] replace
 - [ ] reverse
 - [ ] reverse!
