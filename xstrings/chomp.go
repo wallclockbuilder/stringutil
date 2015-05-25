@@ -4,6 +4,13 @@ import (
 	"strings"
 )
 
+// Chomp Returns a new String
+// with the given record separator(sep) removed
+// from the end of string(s) if present.
+// Chomp also removes carriage return characters
+// (that is it will remove \n, \r, and \r\n).
+// If sep is an empty string,
+// it will remove all trailing newlines from the string.
 func Chomp(s string, sep string) string {
 	if sep == "" {
 		return trimWhitespace(s)
