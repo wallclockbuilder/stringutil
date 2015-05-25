@@ -42,7 +42,7 @@ func main() {
 - [ ] casecmp
 - [ ] center
 - [ ] chars
-- [ ] chomp
+- [x] chomp
 - [ ] chomp!
 - [x] chop
 - [ ] chop!
