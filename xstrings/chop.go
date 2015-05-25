@@ -1,3 +1,5 @@
+// Package xstrings provides common sense
+// string manipulation methods from ruby.
 package xstrings
 
 import (
