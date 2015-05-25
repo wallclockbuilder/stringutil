@@ -4,6 +4,9 @@ import (
 	"strings"
 )
 
+// Chop returns a new String with the last character removed.
+// If the string ends with \r\n, both characters are removed.
+// Applying chop to an empty string returns an empty string.
 func Chop(s string) string {
 	if s == "" {
 		return s
