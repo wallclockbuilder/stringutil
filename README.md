@@ -46,7 +46,7 @@ func main() {
 - [ ] chomp!
 - [x] chop
 - [ ] chop!
-- [ ] chr
+- [x] chr
 - [ ] clear
 - [ ] codepoints
 - [ ] concat
