@@ -92,7 +92,7 @@ func main() {
 - [ ] partition
 - [x] prepend
 - [ ] replace
-- [ ] reverse
+- [x] reverse
 - [ ] reverse!
 - [ ] rindex
 - [ ] rjust

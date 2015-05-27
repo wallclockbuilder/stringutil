@@ -15,4 +15,5 @@ func TestImports(t *testing.T) {
 	assert.Equal("hello", xstrings.Chomp("hello", ""))
 	assert.Equal("he", xstrings.Chomp("hello", "llo"))
 	assert.Equal("a", xstrings.Chr("abcde"))
+	assert.Equal("desserts", xstrings.Reverse("stressed"))
 }
