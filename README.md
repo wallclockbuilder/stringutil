@@ -1,4 +1,5 @@
-#Rugo ![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg?branch=master)
+#Rugo [![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg)](https://travis.org/wallclockbuilder/rugo)
+
 
 Ruby's string manipulation magic brought to Golang
 
