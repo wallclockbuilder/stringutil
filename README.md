@@ -111,7 +111,7 @@ func main() {
 - [ ] squeeze
 - [ ] squeeze!
 - [ ] start_with?
-- [ ] strip
+- [x] strip
 - [ ] strip!
 - [ ] sub
 - [ ] sub!
