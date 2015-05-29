@@ -20,4 +20,6 @@ func TestImports(t *testing.T) {
 	assert.Equal("desserts", xstrings.Reverse("stressed"))
 
 	assert.Equal("hello", xstrings.Strip("    hello     "))
+
+	assert.Equal("hello", xstrings.Downcase("hEllO"))
 }
