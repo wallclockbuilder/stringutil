@@ -80,7 +80,7 @@ func main() {
 - [ ] insert
 - [ ] inspect
 - [ ] intern
-- [ ] length
+- [-] length
 - [ ] lines
 - [ ] ljust
 - [ ] lstrip
