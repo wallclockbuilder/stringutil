@@ -73,7 +73,7 @@ func main() {
 - [ ] gsub!
 - [ ] hash
 - [ ] hex
-- [-] include?
+- [x] include?
 - [ ] index
 - [ ] initialize_copy
 - [ ] insert
