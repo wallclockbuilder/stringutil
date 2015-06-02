@@ -61,7 +61,7 @@ func main() {
 - [ ] each_char
 - [ ] each_codepoint
 - [ ] each_line
-- [ ] empty?
+- [-] empty?
 - [ ] encode
 - [ ] encode!
 - [ ] encoding
