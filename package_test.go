@@ -28,4 +28,6 @@ func TestImports(t *testing.T) {
 	assert.Equal(5, xstrings.Length("hello"))
 
 	assert.Equal(true, xstrings.Include("hello", "lo"))
+
+	assert.Equal(false, xstrings.Empty("hello"))
 }
