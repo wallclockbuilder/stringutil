@@ -109,7 +109,7 @@ func main() {
 - [ ] split
 - [ ] squeeze
 - [ ] squeeze!
-- [ ] start_with?
+- [-] start_with?
 - [x] strip
 - [ ] strip!
 - [ ] sub
