@@ -30,4 +30,6 @@ func TestImports(t *testing.T) {
 	assert.Equal(true, xstrings.Include("hello", "lo"))
 
 	assert.Equal(false, xstrings.Empty("hello"))
+
+	assert.Equal(true, xstrings.Start_with("hello", "hell"))
 }
