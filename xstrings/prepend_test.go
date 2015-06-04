@@ -7,5 +7,5 @@ import (
 
 func TestPrepend(t *testing.T) {
 	assert := assert.New(t)
-	assert.Equal("capt. planet", Prepend("capt. ", "planet"))
+	assert.Equal("capt. planet", Prepend("planet", "capt. "))
 }

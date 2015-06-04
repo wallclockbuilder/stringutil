@@ -10,7 +10,7 @@ func TestImports(t *testing.T) {
 	assert := assert.New(t)
 
 	assert.Equal("ABCDE", xstrings.Capitalize("abcde"))
-	assert.Equal("capt. planet", xstrings.Prepend("capt. ", "planet"))
+	assert.Equal("capt. planet", xstrings.Prepend("planet", "capt. "))
 	assert.Equal("strin", xstrings.Chop("string"))
 
 	//Chomp()
