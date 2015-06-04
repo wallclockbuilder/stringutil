@@ -82,7 +82,7 @@ func main() {
 - [x] length
 - [ ] lines
 - [ ] ljust
-- [-] lstrip
+- [x] lstrip
 - [ ] lstrip!
 - [ ] match
 - [ ] next
