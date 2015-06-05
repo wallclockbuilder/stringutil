@@ -1,4 +1,4 @@
-#Rugo [![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg)](https://travis.org/wallclockbuilder/rugo) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/rugo/xstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/rugo/xstrings)
+#Rugo [![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg)](https://travis-ci.org/wallclockbuilder/rugo) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/rugo/xstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/rugo/xstrings)
 
 Ruby's string manipulation magic brought to Golang
 
