@@ -97,7 +97,7 @@ func main() {
 - [ ] rindex
 - [ ] rjust
 - [ ] rpartition
-- [ ] rstrip
+- [-] rstrip
 - [ ] rstrip!
 - [ ] scan
 - [ ] scrub
