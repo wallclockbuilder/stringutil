@@ -34,4 +34,6 @@ func TestImports(t *testing.T) {
 	assert.Equal(true, xstrings.Start_with("hello", "hell"))
 
 	assert.Equal("hello   ", xstrings.Lstrip("   hello   "))
+
+	assert.Equal("   hello", xstrings.Rstrip("   hello   "))
 }
