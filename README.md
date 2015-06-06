@@ -103,7 +103,7 @@ func main() {
 - [ ] scrub
 - [ ] scrub!
 - [ ] setbyte
-- [-] size
+- [x] size
 - [ ] slice
 - [ ] slice!
 - [ ] split
