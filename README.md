@@ -54,7 +54,7 @@ func main() {
 - [ ] crypt
 - [ ] delete
 - [ ] delete!
-- [x] downcase
+- [-] downcase
 - [ ] downcase!
 - [ ] dump
 - [ ] each_byte
