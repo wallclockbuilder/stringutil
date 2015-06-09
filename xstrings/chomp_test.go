@@ -1,9 +1,19 @@
 package xstrings
 
 import (
+	"fmt"
 	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
+
+func ExampleChomp() {
+	fmt.Println(Chomp("hello", "llo"))
+	fmt.Println(Chomp("hello\n", ""))
+	fmt.Println(Chomp("hello\r\n", ""))
+	// Output: he
+	// hello
+	// hello
+}
 
 func TestChomp(t *testing.T) {
 	assert := assert.New(t)
