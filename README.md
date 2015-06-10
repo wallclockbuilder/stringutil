@@ -18,6 +18,19 @@ Rugo makes all the string manipulation methods from ruby accessible in go.
 ```golang
  import "xstrings" "https://github.com/wallclockbuilder/rugo/xstrings"
 ```
+### Example
+You want to remove the trailing space
+ from the end of a string.
+
+This is what Go forces me to do:
+```golang
+strings.TrimRightFunc(s, unicode.IsSpace)
+```
+This is the simple version from Ruby:
+```golang
+xstrings.Rstrip(s)
+```
+I prefer the Ruby version.
 
 ###Use
 ```golang
