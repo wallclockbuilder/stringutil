@@ -131,7 +131,7 @@ func main() {
 - [ ] tr_s
 - [ ] tr_s!
 - [ ] unpack
-- [x] upcase
+- [-] upcase
 - [ ] upcase!
 - [ ] upto
 - [ ] valid_encoding?
