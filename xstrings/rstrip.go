@@ -7,7 +7,7 @@ import (
 
 // Rstrip returns a copy of s
 // with trailing whitespace removed.
-// See also xstrings.Rstrip and xstrings.Rstrip.
+// See also xstrings.Lstrip and xstrings.Strip
 func Rstrip(s string) string {
 	return strings.TrimRightFunc(s, unicode.IsSpace)
 }
