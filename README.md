@@ -19,7 +19,7 @@ Rugo makes all the string manipulation methods from ruby accessible in go.
  import "xstrings" "https://github.com/wallclockbuilder/rugo/xstrings"
 ```
 ### Example
-You want to remove the trailing space
+I want to remove the trailing space
  from the end of a string.
 
 This is what Go forces me to do:
