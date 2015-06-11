@@ -57,7 +57,7 @@ func main() {
 - [ ] chars
 - [x] chomp
 - [ ] chomp!
-- [x] chop
+- [-] chop
 - [ ] chop!
 - [x] chr
 - [ ] clear
