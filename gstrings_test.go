@@ -1,4 +1,4 @@
-package gstrings
+package gstrings_test
 
 import (
 	"github.com/wallclockbuilder/gstrings"
