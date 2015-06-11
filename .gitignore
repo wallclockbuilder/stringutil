@@ -1,5 +1,5 @@
-gstrings.sublime-workspace
-gstrings.sublime-project
+*.sublime-workspace
+*.sublime-project
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
