@@ -1,4 +1,4 @@
-package rugo
+package gstrings
 
 import (
 	"github.com/wallclockbuilder/gstrings/gstrings"
