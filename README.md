@@ -1,4 +1,4 @@
-#Rugo [![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg)](https://travis-ci.org/wallclockbuilder/rugo) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/rugo/xstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/rugo/xstrings)
+#Rugo [![Build Status](https://travis-ci.org/wallclockbuilder/rugo.svg)](https://travis-ci.org/wallclockbuilder/rugo) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/rugo/gstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/rugo/gstrings)
 
 Ruby's string manipulation magic brought to Golang
 
@@ -16,7 +16,7 @@ Rugo makes all the string manipulation methods from ruby accessible in go.
 
 ###Import
 ```golang
- import "xstrings" "https://github.com/wallclockbuilder/rugo/xstrings"
+ import "gstrings" "https://github.com/wallclockbuilder/rugo/gstrings"
 ```
 ### Example
 I want to remove the trailing space
@@ -28,19 +28,19 @@ strings.TrimRightFunc(s, unicode.IsSpace)
 ```
 This is the simple version from Ruby:
 ```golang
-xstrings.Rstrip(s)
+gstrings.Rstrip(s)
 ```
 I prefer the Ruby version.
 
 ###Use
 ```golang
 package main
-import "github.com/wallclockbuilder/rugo/xstrings"
+import "github.com/wallclockbuilder/rugo/gstrings"
 
 func main() {
-  xstrings.Capitalize("abcde")          #=> "ABCDE"
-  xstrings.Prepend("capt. ", "planet")  #=> "capt. planet"
-  xstrings.Swapcase("Hello")            #=> "hELLO"
+  gstrings.Capitalize("abcde")          #=> "ABCDE"
+  gstrings.Prepend("capt. ", "planet")  #=> "capt. planet"
+  gstrings.Swapcase("Hello")            #=> "hELLO"
 }
 ```
 
