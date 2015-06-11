@@ -1,4 +1,4 @@
-#gstrings [![Build Status](https://travis-ci.org/wallclockbuilder/gstrings.svg)](https://travis-ci.org/wallclockbuilder/gstrings) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/gstrings/gstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/gstrings/gstrings)
+#gstrings [![Build Status](https://travis-ci.org/wallclockbuilder/gstrings.svg)](https://travis-ci.org/wallclockbuilder/gstrings) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/gstrings?status.svg)](http://godoc.org/github.com/wallclockbuilder/gstrings)
 
 Ruby's string manipulation magic brought to Golang
 
@@ -16,7 +16,7 @@ gstrings makes all the string manipulation methods from ruby accessible in go.
 
 ###Import
 ```golang
- import "gstrings" "https://github.com/wallclockbuilder/gstrings/gstrings"
+ import "gstrings" "https://github.com/wallclockbuilder/gstrings"
 ```
 ### Example
 I want to remove the trailing space
@@ -35,7 +35,7 @@ I prefer the Ruby version.
 ###Use
 ```golang
 package main
-import "github.com/wallclockbuilder/gstrings/gstrings"
+import "github.com/wallclockbuilder/gstrings"
 
 func main() {
   gstrings.Capitalize("abcde")          #=> "ABCDE"
