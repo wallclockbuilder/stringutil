@@ -1,7 +1,7 @@
 package gstrings
 
 import (
-	"github.com/wallclockbuilder/gstrings/gstrings"
+	"github.com/wallclockbuilder/gstrings"
 	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
