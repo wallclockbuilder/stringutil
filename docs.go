@@ -1,1 +1,1 @@
-package rugo
+package gstrings
