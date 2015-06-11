@@ -1,7 +1,7 @@
 package rugo
 
 import (
-	"github.com/wallclockbuilder/rugo/gstrings"
+	"github.com/wallclockbuilder/gstrings/gstrings"
 	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
