@@ -39,7 +39,7 @@ import "github.com/wallclockbuilder/gstrings"
 
 func main() {
   gstrings.Capitalize("abcde")          #=> "ABCDE"
-  gstrings.Prepend("capt. ", "planet")  #=> "capt. planet"
+  gstrings.Reverse("stressed")          #=> "desserts"
   gstrings.Swapcase("Hello")            #=> "hELLO"
 }
 ```
