@@ -1,9 +1,19 @@
 package gstrings
 
 import (
+	"fmt"
 	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
+
+func ExampleReverse(){
+	fmt.Println(Reverse("yo"))
+	fmt.Println(Reverse("dog"))
+	fmt.Println(Reverse("stressed"))
+	// Output: oy
+	// god
+	// desserts
+}
 
 func TestReverse(t *testing.T) {
 	assert := assert.New(t)
