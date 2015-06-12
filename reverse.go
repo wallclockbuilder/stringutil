@@ -1,6 +1,6 @@
 package gstrings
 
-// Reverse Returns a new string
+// Reverse returns a new string
 // with the characters from s
 // in reverse order.
 func Reverse(s string) string {
