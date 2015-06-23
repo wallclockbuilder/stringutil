@@ -45,7 +45,7 @@ func main() {
 ```
 
 ###Documentation
-'go doc' style documentation for this package is available online at http://godoc.org/github.com/wallclockbuilder/gstrings
+`go doc` style documentation for this package is available online at http://godoc.org/github.com/wallclockbuilder/gstrings
 ###Method list
 - [ ] ascii_only?
 - [ ] b
