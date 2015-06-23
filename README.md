@@ -36,7 +36,7 @@ gstrings.Rstrip(s)
 I prefer the Ruby version.
 
 
-###Use
+##Use
 ```golang
 package main
 import "github.com/wallclockbuilder/gstrings"
