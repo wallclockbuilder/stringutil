@@ -9,16 +9,16 @@ Why?
 gstrings makes all the string manipulation methods from ruby accessible in go.
 
 
-###Install
+##Install
 ```bash
  go get https://github.com/wallclockbuilder/gstrings
 ```
 
-###Import
+##Import
 ```golang
  import "gstrings" "https://github.com/wallclockbuilder/gstrings"
 ```
-### Example
+## Example
 I want to remove the trailing space
  from the end of a string.
 
@@ -44,9 +44,10 @@ func main() {
 }
 ```
 
-###Documentation
+##Documentation
 `go doc` style documentation for this package is available online at http://godoc.org/github.com/wallclockbuilder/gstrings
-###Method list
+
+##Method list
 - [ ] ascii_only?
 - [ ] b
 - [ ] bytes
