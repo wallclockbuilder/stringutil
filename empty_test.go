@@ -1,9 +1,19 @@
 package gstrings
 
 import (
+	"fmt"
 	"github.com/wallclockbuilder/testify/assert"
 	"testing"
 )
+
+func ExampleEmpty(){
+	fmt.Println(Empty("hello"))
+	fmt.Println(Empty(" "))
+	fmt.Println(Empty(""))
+	// Output: false
+	// false
+	// true
+}
 
 func TestEmpty(t *testing.T) {
 	assert := assert.New(t)
