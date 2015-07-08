@@ -84,7 +84,7 @@
 - [ ] succ
 - [ ] succ!
 - [ ] sum
-- [ ] swapcase
+- [x] swapcase
 - [ ] swapcase!
 - [ ] to_c
 - [ ] to_f
