@@ -1,4 +1,3 @@
-package gstrings
 /*
 Package gstrings provides common sense
 string manipulation methods from ruby.
@@ -11,3 +10,5 @@ string manipulation methods from ruby.
        gstrings.Swapcase("Hello")            #=> "hELLO"
      }
 */
+
+package gstrings
