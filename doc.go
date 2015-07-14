@@ -1,6 +1,8 @@
 /*
 Package gstrings provides common sense
 string manipulation methods from ruby.
+
+How to use:
      package main
      import "github.com/wallclockbuilder/gstrings"
 
