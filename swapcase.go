@@ -1,4 +1,4 @@
-package gstrings
+package stringutil
 
 import (
   "unicode"

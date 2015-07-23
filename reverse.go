@@ -1,4 +1,4 @@
-package gstrings
+package stringutil
 
 // Reverse returns a new string
 // with the characters from s

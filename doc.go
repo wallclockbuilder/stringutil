@@ -1,15 +1,15 @@
 /*
-Package gstrings provides common sense
+Package stringutil provides common sense
 string manipulation methods from ruby.
 
 How to use:
      package main
-     import "github.com/wallclockbuilder/gstrings"
+     import "github.com/wallclockbuilder/stringutil"
 
      func main() {
-       gstrings.Capitalize("abcde")          #=> "ABCDE"
-       gstrings.Reverse("stressed")          #=> "desserts"
-       gstrings.Swapcase("Hello")            #=> "hELLO"
+       stringutil.Capitalize("abcde")          #=> "ABCDE"
+       stringutil.Reverse("stressed")          #=> "desserts"
+       stringutil.Swapcase("Hello")            #=> "hELLO"
      }
 */
-package gstrings
+package stringutil

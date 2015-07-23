@@ -1,4 +1,4 @@
-package gstrings
+package stringutil
 
 // Empty returns true
 // if s has a length of zero.

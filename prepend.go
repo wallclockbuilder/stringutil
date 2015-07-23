@@ -1,4 +1,4 @@
-package gstrings
+package stringutil
 
 // Prepend returns a new string
 // with item at the head of s.

@@ -1,4 +1,4 @@
-package gstrings
+package stringutil
 
 import (
 	"strings"
@@ -7,7 +7,7 @@ import (
 
 // Lstrip returns a copy of s
 // with leading whitespace removed.
-// See also gstrings.Rstrip and gstrings.Strip
+// See also stringutil.Rstrip and stringutil.Strip
 func Lstrip(s string) string {
 	return strings.TrimLeftFunc(s, f)
 }
