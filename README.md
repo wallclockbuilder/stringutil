@@ -1,5 +1,4 @@
-#stringutil [![Build Status](https://travis-ci.org/wallclockbuilder/stringutil.svg)](https://travis-ci.org/wallclockbuilder/stringutil) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/stringutil?status.svg)](http://godoc.org/github.com/wallclockbuilder/stringutil)
-
+#stringutil [![Build Status](https://travis-ci.org/wallclockbuilder/stringutil.svg)](https://travis-ci.org/wallclockbuilder/stringutil) [![GoDoc](https://godoc.org/github.com/wallclockbuilder/stringutil?status.svg)](http://godoc.org/github.com/wallclockbuilder/stringutil) [![Readability](https://img.shields.io/badge/cyclomatic%20complexity-5-brightgreen.svg)](http://locometer.com/github.com/wallclockbuilder/stringutil)
 Ruby's string manipulation magic brought to Golang
 
 Why?
